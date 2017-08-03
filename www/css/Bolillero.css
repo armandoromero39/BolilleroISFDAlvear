@@ -1,0 +1,93 @@
+body{
+    
+	margin: 0px;
+	padding-top: 10px 0;
+	font-size: 18px;
+	font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+	background-position: center;
+}
+
+
+.header {
+	border-radius: 15px;
+	margin: 5px;
+	padding: 10px 10px;
+	color: blue;
+	font-size: 15pt;
+	font-weight: bold;
+	text-shadow: 5px 2px 4px grey;
+	background-color: #BAF;
+	text-align: center;
+	text-decoration: underline;
+	height: 48.4px-;
+	line-height: 48.4px;
+	
+}
+
+#imagen{
+	position: relative;
+	top: 6px;
+}
+
+
+
+.unidades{
+	border-radius: 20px;
+	margin: 5px;
+	color: blue;
+	font-size: 10pt;
+	font-weight: bold;
+	text-shadow: 5px 2px 4px grey;
+	background-color: cyan;
+	text-align: center;
+	line-height: 48.4px;
+
+}
+
+.bolillas{
+	border-radius: 20px;
+	margin: 5px;
+	color: blue;
+	font-size: 10pt;
+	font-weight: bold;
+	text-shadow: 5px 2px 4px grey;
+	background-color: cyan;
+	text-align: center;
+	line-height: 48.4px;
+
+}
+.button-container{
+	border-radius: 15px;
+ margin: 1rem;
+ text-align: center;
+ padding: 5px;
+ background-color: grey;
+}
+
+.button{
+	border: 1px solid;
+	color: #FFF;
+	padding: 10px;
+}
+#button-action{
+	font-size: large;
+	border-radius: 15px;
+	background-color: #FD4140;
+}
+
+.button-filter{
+	border-radius: 15px;
+	margin: 1px;
+	font-size: medium;
+	width: : 6rem;
+	background-color: #7ABAF2;
+}
+#lista-bolillas{
+	margin: 15px;
+	font-size: 40px;
+	color: red;
+	border-radius: 10px;
+
+}
+

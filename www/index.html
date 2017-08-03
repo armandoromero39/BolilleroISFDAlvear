@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/Bolillero.css"  />
+        <title>Bolillero ISFD Alvear</title>
+    </head>
+    <body >
+    <div class="header">
+        <img id="imagen" align="left" src="img/bolillero.png" height="10%" width="10%">
+        <span>Bolillero del ISFD "Alvear"</span>
+    </div>
+
+    <div class="unidades">
+     <span> Ingrese número de Unidades </span>
+     <br>
+     <input class="unidad" type="text" name="unidad" id="unidad" maxlength="2" required>
+    </div>
+    
+
+    <div class="bolillas">
+    <span> Ingrese número de Bolillas </span> 
+    <br>
+    <input class="bolilla" type="text" name="bolilla" id="bolilla" maxlength="1" required>
+    </div>
+
+    <div class="button-container">
+        <button id="button-action" class="button">Extraer Bolillas</button>
+    </div>
+
+    <div class = "lista-bolillas" id="lista-bolillas" align="center"></div>
+
+      
+
+    <div class="button-container">
+        <button class="button button-filter">Borrar Bolillas</button> <br>
+        <button class="button button-filter">Borrar Todo</button><br>
+        <button class="button button-filter">Salir</button><br>
+    </div>
+
+
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/fastclick.js"></script>
+    <script type="text/javascript" src="js/Bolillero.js"></script>
+
+    <div class="footer" align="center">
+        <img onclick= "abre()" id="imagen" align="center" src="img/logo.png" height="10%" width="10%"> </img> <script type="text/javascript">
+            function abre(){
+                var url="http://isfdalvear.bue.infd.edu.ar/sitio/";
+                window.open(url, "menubar=no , location=no")
+            }
+        </script>
+    </div>
+
+    </body>
+</html>
