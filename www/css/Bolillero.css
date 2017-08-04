@@ -74,9 +74,11 @@ body{
 	font-size: large;
 	border-radius: 15px;
 	background-color: #FD4140;
+	text-shadow: 5px 2px 4px grey;
 }
 
 .button-filter{
+	text-shadow: 5px 2px 4px grey;
 	border-radius: 15px;
 	margin: 1px;
 	font-size: medium;
@@ -90,4 +92,13 @@ body{
 	border-radius: 10px;
 
 }
-
+.footer{
+	margin: 1rem;
+	padding: 10px, 10px;
+	border-radius: 15px;
+	text-shadow: 5px 2px 4px grey;
+	background-color: #BAF;
+	text-align: center;
+	
+	
+}
