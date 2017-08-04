@@ -9,6 +9,9 @@ var app = {
 	},
 
 	iniciaBotones: function() {
+	var logo=document.getElementById('imagen2');
+	logo.addEventListener('click', this.abrepagina);
+
     var buttonAction = document.querySelector('#button-action');
     buttonAction.addEventListener('click', this.extraerBolillas);
 
@@ -20,6 +23,11 @@ var app = {
     filterButtons[2].addEventListener('click', this.salir);
     
 
+	},
+
+	abrepagina:function(){
+		var url="http://isfdalvear.bue.infd.edu.ar/sitio/";
+		window.open(url);
 	},
 
 	salir: function(){
@@ -42,7 +50,7 @@ var app = {
 		valor1 = document.getElementById("unidad").value;
 		valor2 = document.getElementById("bolilla").value;
 		if( isNaN(valor1) || isNaN(valor2) || valor1<valor2 ) {
-  			alert("Ingrese Valores numéricos correctos por favor");
+  			alert("No ha ingresado valores numéricos o las Unidades son mayores a las Bolillas!!!");
   			document.getElementById("unidad").value="";
   			document.getElementById("bolilla").value="";
 		}
